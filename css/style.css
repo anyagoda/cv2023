@@ -1,0 +1,54 @@
+html {
+  font-family: "Arial", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust :100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #cccccc;
+}
+
+p {
+  text-indent: 2em;
+}
+
+#cv-photo {
+  margin-left: 2em;
+  height: 305px;
+  width: 240px;
+}
+
+#name {
+  margin-top: 100px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cv {
+  margin: 0 auto;
+  width: 1200px;
+  background-color: #d5eed9;
+}
+
+.cv div {
+margin-left: 2em;
+margin-right: 2em;
+}
+
+.ext-list li {
+  list-style-type: none;
+}
+
+.ext-list li:before {
+  content: "\2714";
+  margin-right: 6px;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+}
